@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="name title">Names List</h1>
-        <NameTag></NameTag>
-        <NameTag></NameTag>
-        <NameTag></NameTag>
+        <NameTag name="Peter">Peter</NameTag>
+        <NameTag name="Paul">Paul</NameTag>
+        <NameTag name="Mary">Mary</NameTag>
       </header>
     </div>
   );
